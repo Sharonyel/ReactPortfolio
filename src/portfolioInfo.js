@@ -35,29 +35,56 @@ const portfolioInfo = {
             "jobDesc": "Responsible for developing, enhancing, modigying and/or maintaining applications in the General Ledger environment.",
         }
     ],
-    "skillsList": [
+    "skList": [
         {
-            "skill": "HTML"
+            "skills": "JavaScript"
         },
         {
-            "skill": "React"
+            "skills": "React"
         },
         {
-            "skills": "Javascript"
+            "skills": "jQuery"
+        },
+        {
+            "skills": "Sequelize"
+        },
+        {
+            "skills": "MongoDB"
+        },
+        {
+            "skills": "Passport"
+        },
+        {
+            "skills": "Node.js"
+        },
+        {
+            "skills": "Heroku"
+        },
+        {
+            "skills": "MySQL"
+        },
+        {
+            "skills": "Handlebars"
+        },
+        {
+            "skills": "AJAX"
+        },
+        {
+            "skills": "Bootstrap"
         }
     ],
-    "portfolio": [
+    "projects": [
         {
             "name": "FindIt",
-            "description": "Let's us help you Find It",
-            "portimg": "images/findit.jpg",
+            "desc": "Let's us help you Find It",
+            "projectImg": "images/findit.jpg",
             "seeIt": "https://sharonyel.github.io/FindIt/",
             "github": "https://github.com/Sharonyel/Findit"
         },
         {
             "name": "Nutrition Journal",
-            "description": "Track Your calories by entering the food eaten",
-            "portimg": "images/nutritionjournal.jpg",
+            "desc": "Track Your calories by entering the food eaten",
+            "projectImg": "images/nutritionjournal.jpg",
             "seeIt": "https://salty-ravine-80275.herokuapp.com/",
             "github": "https://github.com/Sharonyel/project2"
 

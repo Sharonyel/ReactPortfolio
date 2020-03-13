@@ -22,8 +22,8 @@ const App = () => {
       <About portfolioInfo={portfolioInfo}/>
       <Experience portfolioInfo={portfolioInfo}/>
       <Education portfolioInfo={portfolioInfo}/>
-      {/* <Projects portfolioInfo={portfolioInfo}/> */}
-      {/* <Skills portfolioInfo={portfolioInfo}/> */}
+      <Projects portfolioInfo={portfolioInfo}/>
+      <Skills portfolioInfo={portfolioInfo}/>
       {/* <Contact portfolioInfo={portfolioInfo}/> */}
 
     </div>
