@@ -147,13 +147,13 @@ header a:focus{
     width:350px; 
     border-radius: 5%;
 }
-/* header.active{
+header.active{
     display:block
-} */
-/* header.sticky{position:fixed;z-index:999} */
-/* #menu.active{
+}
+header.sticky{position:fixed;z-index:999}
+#menu.active{
     display:block
-} */
+}
 #mobile-menu-open{
     display:none;
     cursor:pointer;

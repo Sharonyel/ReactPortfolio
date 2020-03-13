@@ -15,7 +15,10 @@ class About extends Component {
         <div className="col-md-1"></div>
         <div className="col-md-7">
           <h1 className="heading">About Me</h1>
-        <p>{portfolio.about}</p>
+        <p>{portfolio.about1}</p>
+        <p>{portfolio.about2}</p>
+        <p>{portfolio.about3}</p>
+
         </div>
        
         </div>
