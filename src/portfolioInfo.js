@@ -75,23 +75,50 @@ const portfolioInfo = {
     ],
     "projects": [
         {
+            "name": "Nutrition Journal",
+            "desc": "Track your calories by entering the food you have eaten. Enter your exercise to see the expected calories burned.",
+            "projectImg": "images/nutritionjournal.jpg",
+            "seeIt": "https://salty-ravine-80275.herokuapp.com/",
+            "github": "https://github.com/Sharonyel/project2"
+        },
+
+        {
             "name": "FindIt",
-            "desc": "Let's us help you Find It",
+            "desc": "This app let's you search a city to find things you like. You can search for restaurants, shopping malls, hotels, book stores, etc.",
             "projectImg": "images/findit.jpg",
             "seeIt": "https://sharonyel.github.io/FindIt/",
             "github": "https://github.com/Sharonyel/Findit"
         },
         {
-            "name": "Nutrition Journal",
-            "desc": "Track Your calories by entering the food eaten",
-            "projectImg": "images/nutritionjournal.jpg",
-            "seeIt": "https://salty-ravine-80275.herokuapp.com/",
-            "github": "https://github.com/Sharonyel/project2"
+            "name": "Eat Da Burger",
+            "desc": "An app that lets users input the names of burgers they would like to eat. Click a button to eat it and it moves to the burgers eaten list.",
+            "projectImg": "images/eatdaburger.jpg",
+            "seeIt": "https://say-eatdaburger.herokuapp.com/",
+            "github": "https://github.com/Sharonyel/burger"
+        },
+        {
+            "name": "Code Quiz",
+            "desc": "Let's test your knowledge on HTML, CSS, and Javascript. Answer as many questions as you can before the time runs out.",
+            "projectImg": "images/codequiz.jpg",
+            "seeIt": "https://sharonyel.github.io/code-quiz/",
+            "github": "https://github.com/Sharonyel/code-quiz"
+        },
+        {
+            "name": "Note Taker",
+            "desc": "This app allows you enter notes and log them to view later. The ability to edit and delete a note is avilable.",
+            "projectImg": "images/notetaker.jpg",
+            "seeIt": "https://powerful-coast-11169.herokuapp.com/",
+            "github": "https://github.com/Sharonyel/noteTaker"
+        },
+        {
+            "name": "Weather Dashboard",
+            "desc": "See the current weather condition in any city by entering the city name.  Also vie the 5-day Forecast",
+            "projectImg": "images/weather.jpg",
+            "seeIt": "https://sharonyel.github.io/weather_dashboard/",
+            "github": "https://github.com/Sharonyel/weather_dashboard"
+        },
 
-        }
-    
-
-    ]
+        ]
 }
 
 export  default portfolioInfo;

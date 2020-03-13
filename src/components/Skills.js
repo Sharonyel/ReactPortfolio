@@ -11,8 +11,10 @@ class Skills extends Component {
             {
                 portfolio.skList && portfolio.skList.map((skill) => {
                     return(
-                     <div>
+                        <div>
+                     <ul>
                      <li>{skill.skills}</li>
+                    </ul>
                     </div>
                 )}
                 )}
