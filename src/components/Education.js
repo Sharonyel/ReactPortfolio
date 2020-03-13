@@ -7,9 +7,8 @@ class Education extends Component {
     return (
       <div id="education">
           <h2 className="heading"><span>Education</span></h2>
-         
             {
-                portfolio.education && portfolio.education.map((school) => {
+                portfolio.education.map((school) => {
                     return(
                      <div className="education-block">
                      <h3>{school.univName}</h3>

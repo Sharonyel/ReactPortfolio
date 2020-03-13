@@ -92,28 +92,28 @@ const portfolioInfo = {
         {
             "name": "Eat Da Burger",
             "desc": "An app that lets users input the names of burgers they would like to eat. Click a button to eat it and it moves to the burgers eaten list.",
-            "projectImg": "images/eatdaburger.jpg",
+            "projectImg": "images/burger.jpg",
             "seeIt": "https://say-eatdaburger.herokuapp.com/",
             "github": "https://github.com/Sharonyel/burger"
         },
         {
             "name": "Code Quiz",
             "desc": "Let's test your knowledge on HTML, CSS, and Javascript. Answer as many questions as you can before the time runs out.",
-            "projectImg": "images/codequiz.jpg",
+            "projectImg": "images/codequiz1.jpg",
             "seeIt": "https://sharonyel.github.io/code-quiz/",
             "github": "https://github.com/Sharonyel/code-quiz"
         },
         {
             "name": "Note Taker",
             "desc": "This app allows you enter notes and log them to view later. The ability to edit and delete a note is avilable.",
-            "projectImg": "images/notetaker.jpg",
+            "projectImg": "images/notetaker1.jpg",
             "seeIt": "https://powerful-coast-11169.herokuapp.com/",
             "github": "https://github.com/Sharonyel/noteTaker"
         },
         {
             "name": "Weather Dashboard",
             "desc": "See the current weather condition in any city by entering the city name.  Also vie the 5-day Forecast",
-            "projectImg": "images/weather.jpg",
+            "projectImg": "images/weatherdashboard.jpg",
             "seeIt": "https://sharonyel.github.io/weather_dashboard/",
             "github": "https://github.com/Sharonyel/weather_dashboard"
         },

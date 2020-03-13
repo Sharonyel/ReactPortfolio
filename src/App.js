@@ -11,14 +11,13 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import portfolioInfo from './portfolioInfo';
 
-// import logo from './logo.svg';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
       <Header portfolioInfo={portfolioInfo}/>
-      <NavLinks />
+      {/* <NavLinks /> */}
       <About portfolioInfo={portfolioInfo}/>
       <Experience portfolioInfo={portfolioInfo}/>
       <Education portfolioInfo={portfolioInfo}/>
