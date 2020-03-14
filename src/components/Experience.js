@@ -11,15 +11,11 @@ class Experience extends Component {
             {
                 portfolio.experience.map((work) => {
                     return(
-                      // <div id="experience-timeline">
-
-
                    <div className="education-block">
                      <h3>{work.company}</h3>
                      <h4>{work.title}</h4>
                      <p>{work.jobDesc}</p>
                     </div>
-                    // </div>
                 )}
                 )}
       </div>

@@ -1,12 +1,8 @@
 import React, { Component } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faFile } from '@fortawesome/free-solid-svg-icons';
 import { FaGithub, FaLinkedin, FaFile } from "react-icons/fa";
-// import { faGithubSquare } from '@fortawesome/free-solid-svg-icons'
 
 class Footer extends Component {
   render() {
-    // let portfolio = this.props.portfolioInfo;
     return (
       <div>
         <footer>
@@ -14,9 +10,6 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-5"></div>
               <div className="col-sm-2 top">
-                {/* <span id="to-top">
-                  <i className="fa fa-chevron-up" aria-hidden="true"></i>
-                </span> */}
               </div>
               <div className="col-sm-5"></div>
             </div>

@@ -1,9 +1,6 @@
 import React from 'react';
-// import { render } from 'reat-dom';
 import Header from './components/Header';
 import NavLinks from './components/NavLinks';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faHome, faLinkedin } from "@fortawesome/free-solid-svg-icons";
 
 import About from './components/About';
 import Contact from './components/Contact';

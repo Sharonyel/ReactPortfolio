@@ -12,7 +12,6 @@ class Projects extends Component {
             {
                 portfolio.projects.map((project) => {
                     return(
-                    //  <div className="card-deck">
                         <div className="col-md-4 col-sm-6 projectcard">
                             <div className="card cardborder">
                                 <img src={project.projectImg} className="card-img-top projImg" alt={project.name}></img>
@@ -28,7 +27,6 @@ class Projects extends Component {
                                 </div>
                     </div>
                     </div>
-                    // </div>
                 )}
                 )}
                 </div>

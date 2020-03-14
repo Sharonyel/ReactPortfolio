@@ -7,6 +7,11 @@ Built With
 * JSX
 * Bootstrap
 
+<img src="./public/images/ss1.jpg" width=700>
+<img src="./public/images/ss2.jpg" width=700>
+<img src="./public/images/ss3.jpg" width=700>
+<img src="./public/images/ss4.jpg" width=700>
+
 
 Heroku Deployment
 ---

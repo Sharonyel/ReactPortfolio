@@ -1,7 +1,4 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
-
-// import "./NavLinks.css";
 
 const NavLinks = () => {
     return (
@@ -13,7 +10,6 @@ const NavLinks = () => {
                 <l1><a href="#projects">Projects</a></l1>
                 <l1><a href="#skills">Skills</a></l1>
                 <l1><a href="#contact">Contact</a></l1>
-
             </ul>
             </header>
 

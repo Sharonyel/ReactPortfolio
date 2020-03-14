@@ -5,31 +5,26 @@ class About extends Component {
     let portfolio = this.props.portfolioInfo;
 
     return (
-    //   <React>
       <div id="about">
-          <div className="container">
+        <div className="container">
           <h1 className="heading">About Me</h1>
 
-              <div className="row">
-                  <div className="col-md-4 aboutImg">
-          <img  src="../images/myphoto1.jpg" alt="pic of me"/>
+          <div className="row">
+            <div className="col-md-4 aboutImg">
+              <img src="../images/myphoto1.jpg" alt="pic of me" />
+            </div>
+            <div className="col-md-1"></div>
+            <div className="col-md-7">
+              <p>{portfolio.about1}</p>
+              <br />
+              <p>{portfolio.about2}</p>
+              <br />
+              <p>{portfolio.about3}</p>
+            </div>
           </div>
-        <div className="col-md-1"></div>
-        <div className="col-md-7">
-          {/* <div className="row">
-          </div>
-          <div className="row"> */}
-        <p>{portfolio.about1}</p>
-        <br />
-        <p>{portfolio.about2}</p>
-        <br />
-        <p>{portfolio.about3}</p>
-        </div>
-       
-        </div>
         </div>
       </div>
-    //  </React>
+      //  </React>
     );
   }
 }
