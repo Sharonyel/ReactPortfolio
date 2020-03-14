@@ -29,12 +29,12 @@ const portfolioInfo = {
         {
             "company": "The Temple Of Refuge",
             "title": "Senior Executive Manager",
-            "jobDesc": "Manage the day to day operations of the organization."
+            "jobDesc": "Manage the day to day operations of the organization. Responsible for all financial records including accounts payable and payroll reporting. Facilitated leadeship training and workshops to build a stronger team environment."
         },
         {
             "company": "Bank Of America",
             "title": "Programmer Analyst",
-            "jobDesc": "Responsible for developing, enhancing, modigying and/or maintaining applications in the General Ledger environment.",
+            "jobDesc": "Responsible for developing, enhancing, modifying and/or maintaining applications in the General Ledger environment. Worked with project managers to analyze, review, and alter programs to increase operation efficiency. Documented program development, logic, coding, and corretions. Provided oncall support as needed.",
         }
     ],
     "skList": [

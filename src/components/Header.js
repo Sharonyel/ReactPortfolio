@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
 class Header extends Component {
   render() {
@@ -12,11 +15,13 @@ class Header extends Component {
             <h2>{portfolio.role}</h2>
           </div>
           <div id="lead-overlay">
-            <div id="lead-down">
+            {/* <div id="lead-down">
               <span>
+              <FontAwesomeIcon icon={ faArrowDown }/>
+
                 <i className="fa fa-chevron-down" aria-hidden="true"></i>
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </React.Fragment>
