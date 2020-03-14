@@ -4,6 +4,7 @@ class Footer extends Component {
     render() {
         // let portfolio = this.props.portfolioInfo;
         return (
+            <div>
             <footer>
                 <div classNameName="container">
                     <div classNameName="row">
@@ -54,6 +55,7 @@ class Footer extends Component {
                     </div>
                     </div>
             </footer>
+            </div>
     )};
         }
 export default Footer;
