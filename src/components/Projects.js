@@ -8,11 +8,12 @@ class Projects extends Component {
       <div id="projects" class="background-alt">
           <h2 className="heading">Projects</h2>
          <div className="container">
+          <div className="row">
             {
-                portfolio.projects && portfolio.projects.map((project) => {
+                portfolio.projects.map((project) => {
                     return(
-                     <div className="card-deck">
-                        <div className="col-sm-4 projectcard">
+                    //  <div className="card-deck">
+                        <div className="col-md-4 col-sm-6 projectcard">
                             <div className="card cardborder">
                                 <img src={project.projectImg} className="card-img-top projImg" alt={project.name}></img>
                                 <div className="card-body">
@@ -27,9 +28,10 @@ class Projects extends Component {
                                 </div>
                     </div>
                     </div>
-                    </div>
+                    // </div>
                 )}
                 )}
+                </div>
       </div>
       </div>
     );

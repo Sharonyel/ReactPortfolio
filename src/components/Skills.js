@@ -7,17 +7,15 @@ class Skills extends Component {
     return (
       <div id="skills">
           <h2 className="heading">Skills</h2>
-         
+         <ul>
             {
-                portfolio.skList && portfolio.skList.map((skill) => {
+                portfolio.skList.map((skill) => {
                     return(
-                        <div>
-                     <ul>
-                     <li>{skill.skills}</li>
-                    </ul>
-                    </div>
+                      <li>{skill.skills}</li>
+                    
                 )}
                 )}
+                </ul>
       </div>
 
     );
