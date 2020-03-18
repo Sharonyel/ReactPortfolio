@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from "react";
 import { FaGithub, FaLinkedin, FaFile } from "react-icons/fa";
 
@@ -17,7 +18,7 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-1">
                 <a href="https://github.com/Sharonyel" target="_blank">
-                  <FaGithub size="4x" />
+                  <FaGithub size="3x" />
                 </a>
                 <br />
                 <strong>Github</strong>
@@ -27,14 +28,14 @@ class Footer extends Component {
                   href="https://linkedin.com/in/sharon-yelverton-92758384"
                   target="_blank"
                 >
-                  <FaLinkedin size="4x" />
+                  <FaLinkedin size="3x" />
                 </a>
                 <br />
                 <strong>Linkedin</strong>
               </div>
               <div className="col-sm-1">
                 <a href="SharonYelverton.pdf" target="_blank">
-                  <FaFile size="4x" />
+                  <FaFile size="3x" />
                 </a>
                 <br />
                 <strong>Resume</strong>

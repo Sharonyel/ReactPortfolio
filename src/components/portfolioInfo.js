@@ -129,4 +129,4 @@ const portfolioInfo = {
     // ]
 }
 
-export  default portfolioInfo;
+export default portfolioInfo;

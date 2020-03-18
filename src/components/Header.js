@@ -2,13 +2,12 @@ import React, { Component } from "react";
 
 class Header extends Component {
   render() {
-    let portfolio = this.props.portfolioInfo;
 
     return (
         <div id="lead">
           <div id="lead-content">
-            <h1>{portfolio.name}</h1>
-            <h2>{portfolio.role}</h2>
+            <h1>Sharon Yelverton</h1>
+            <h2>Full Stack Developer</h2>
           </div>
           <div id="lead-overlay">
           </div>
